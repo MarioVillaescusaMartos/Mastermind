@@ -1,0 +1,49 @@
+input
+{
+	float: left;
+	width: 35px;
+	margin: 1.5px;
+}
+
+div
+{
+	float: left;
+	margin: 19px;
+}
+
+#mast1
+{
+	margin-left: 42.5%;
+}
+
+#num1
+{
+	margin-left: 41.5%;
+}
+
+#buttcomp
+{
+	margin-left: 41.5%;
+}
+
+#music
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+body
+{
+	background-repeat: repeat-y;
+	background-size: cover;
+	background-image: url("../images/background.gif");
+	color: white;
+}

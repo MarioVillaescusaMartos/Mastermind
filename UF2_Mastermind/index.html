@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mastermind</title>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="images/einstein.png" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type="text/javascript" src="JS/fichero.js"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', loadEvents);
+	</script>
+</head>
+
+<body>
+
+	<h2>Mastermind</h2>
+	<h3>Puedes adivinar los números que Mastermind a pensado? Introduce en las siguientes casillas numeros del 1 al 3 para intentarlo.</h3>
+
+	<div id="intent">Intentos: 0</div>
+	<div id="aciertos">Aciertos: 0</div><br><br><br><br>
+
+	<div id="mast1">*</div>
+	<div id="mast2">*</div>
+	<div id="mast3">*</div>
+	<div id="mast4">*</div>
+	<div id="mast5">*</div><br><br><br><br>
+
+	<input type="text" id="num1">
+	<input type="text" id="num2">
+	<input type="text" id="num3">
+	<input type="text" id="num4">
+	<input type="text" id="num5"><br><br>
+
+	<button id="buttcomp">Comprobar</button>
+	<button id="buttrein">Reiniciar</button>
+	<button id="buttrend">Rendirse</button>
+
+	<audio id="music" controls loop>
+		<source src="soundtrack/epic.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	<footer>Mario Villaescusa Martos<br>Todos los derechos reservados &#169;</footer>
+</body>
+</html>
